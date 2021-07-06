@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+margin: 0px;
+padding: 0px;
+font-family: 'Roboto','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bgimage{
+    background-image: url("Images/New1.jpg");
+    height :100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* #bg {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+  } */
+  @media only screen and (max-width: 600px) {
+    p {
+      color:pink
+    }
+  }
+  
+.Header {
+  font-display: none;
+  font-family: pattaya;
+  font-size: 40px;
+  text-align: center;
+  margin: 0px;
+  padding: 0PX;
+  color:whitesmoke;
+  height: 100px;
+  overflow: hidden;
+}
+
+.Header h1{
+  animation: movingTopToBottom 2s ease-in;
+  position: relative;
+  display: inline-block;
+}
+
+#mainmenu {
+  display: flex;
+  justify-content: center;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul li{
+  float:left;
+  color: white;
+  font-size: 20px;
+  margin: 0px 20px 0px 20px;
+  padding-top: 30px;
+}
+
+
+@keyframes movingTopToBottom {
+  0% {
+    top: -50px;
+  }
+  100% {
+    top: 0px;
+  }
+}
